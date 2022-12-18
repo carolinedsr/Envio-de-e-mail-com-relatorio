@@ -51,7 +51,7 @@ def enviar_email(): # função para enviar e-mail
     msg['Subject'] = "Relatório de Vendas"
     msg['From'] = 'carolsousaaraujo078@gmail.com'
     msg['To'] = 'caroline.rsc@outlook.com'
-    password = 'jyummxmdqkbambgu'
+    password = '123' # inserir a senha gerada pela conta de e-mail
     msg.add_header('Content-Type','text/html')
     msg.set_payload(corpo_email)
 
